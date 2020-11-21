@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <title>ვის უნდა 20 000 ლარი</title>
+</head>
+<body>
+    
+<section id="mainCont" class="hide-cont">
+<div class="container">
+    <div class="row full">
+        <div class="col-xl-10 co-lg-10 col-md-9 col-sm-12">
+            <div class="question-inner">
+                <div class="question-box">
+                <div class="timer">
+                    <span id="timerText">00:00</span>         
+                </div>
+                    <div class="gamer">
+                        <div class="guest">
+                            <div class="img" id="guestAvatar">
+                                <!-- <img src="" alt="Author" id="guestAvatar"> -->
+                            </div>
+                            <div class="info">
+                                <h2 id="guestName"></h2>
+                                <h2 id="guestLastName"></h2>
+                            </div>
+                        </div>
+                        <div class="img vs">
+                            <img src="images/vs.png" alt="VS">
+                        </div>
+                        <div class="guest">
+                            <div class="img">
+                                <img src="images/author.png" alt="Author">
+                            </div>
+                            <div class="info">
+                                <h2>ლექსო</h2>
+                                <h2>ალექსიძე</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-text">
+
+                    </div>
+                    <div class="question-answers">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 co-lg-2 col-md-3 col-sm-12">
+            <div class="achievement-inner">
+                <div class="help-box">
+                    <div class="help-child" id="computerLogic">50 / 50</div>
+                    <div class="help-child" id="usersHelp">
+                        <i class="fa fa-users"></i>
+                    </div>
+                </div>
+                <div class="step wow fadeIn" data-wow-delay="5.5s">
+                    <h2>15</h2>
+                    <span>20,000</span>
+                </div>
+                <div class="step wow fadeIn" data-wow-delay="5.1s">
+                    <h2>14</h2>
+                    <span>10,000</span>
+                </div>
+                <div class="step wow fadeIn" data-wow-delay="4.7s">
+                    <h2>13</h2>
+                    <span>5,000</span>
+                </div>
+                <div class="step wow fadeIn" data-wow-delay="4.3s">
+                    <h2>12</h2>
+                    <span>4,000</span>
+                </div>
+                <div class="step wow fadeIn" data-wow-delay="3.9s">
+                    <h2>11</h2>
+                    <span>3,000</span>
+                </div>
+                <div class="step wow fadeIn" data-wow-delay="3.5s">
+                    <h2>10</h2>
+                    <span>1,500</span>
+                </div>
+                <div class="step wow fadeIn" data-wow-delay="3.1s">
+                    <h2>9</h2>
+                    <span>1,000</span>
+                </div>
+                <div class="step wow fadeIn" data-wow-delay="2.7s">
+                    <h2>8</h2>
+                    <span>800</span>
+                </div>
+                <div class="step wow fadeIn" data-wow-delay="2.3s">
+                    <h2>7</h2>
+                    <span>400</span>
+                </div>
+                <div class="step wow fadeIn" data-wow-delay="1.9s">
+                    <h2>6</h2>
+                    <span>200</span>
+                </div>
+                <div class="step wow fadeIn" data-wow-delay="1.5s">
+                    <h2>5</h2>
+                    <span>100</span>
+                </div>
+                <div class="step wow fadeIn" data-wow-delay="1.3s">
+                    <h2>4</h2>
+                    <span>50</span>
+                </div>
+                <div class="step wow fadeIn" data-wow-delay="0.9s">
+                    <h2>3</h2>
+                    <span>40</span>
+                </div>
+                <div class="step wow fadeIn" data-wow-delay="0.6s">
+                    <h2>2</h2>
+                    <span>30</span>
+                </div>
+                <div class="step wow fadeIn" data-wow-delay="0.3s">
+                    <h2>1</h2>
+                    <span>20</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<!-- usersHelp -->
+<section id="usersPanel">
+    <div class="container">
+        <div class="row">
+            <div class="user-help">
+                <div class="range">
+                    <div class="range-bar">
+                        <h3>A</h3>
+                        <span id="range01">%</span>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <div class="range">
+                    <div class="range-bar">
+                        <h3>B</h3>
+                        <span id="range02">%</span>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <div class="range">
+                    <div class="range-bar">
+                        <h3>C</h3>
+                        <span id="range03">%</span>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <div class="range">
+                    <div class="range-bar">
+                        <h3>D</h3>
+                        <span id="range04">%</span>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <button class="users-close">დახურვა</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- GameOut -->
+<section id="gameOutSection" class="game-section-hide">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="block">
+                  <h1>სამწუხაროდ თქვენ დამარცხდით</h1>
+                  <h2>თქვენი გარანტირებული თანხა შეადგენს <span id="overMoney">0</span> ლარს</h2>
+                  <button onclick="reloadGame()">თავიდან დაწყება</button>
+               </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- GameWon -->
+<section id="gameWon" class="game-section-hide">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>გილოცავთ თქვენ გაიმარჯვეთ</h1>
+                <h2>თქვენი გარანტირებული თანხა შეადგენს <span>20 000</span> ლარს</h2>
+                <button onclick="reloadGame()">თავიდან დაწყება</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- RegForm -->
+<section id="registration" class="reg-section-hide">
+    <div class="container">
+        <div class="row">
+            <!-- <div id="particles-js"></div> -->
+            <div class="col-12">
+                <h1>თქვენ თამაშობთ ვის უნდა <span>20 000</span> ლარი</h1>
+                <p>თამაშის დასაწყებად საჭიროა გაიაროთ რეგისტრაცია</p>
+            </div>
+            <div class="registration-box">
+                    <div class="bx" id="login">
+                    <div class="box">
+                        <input type="text" placeholder="სახელი" id="guestNameVal">
+                    </div>
+                    <div class="box">
+                       <input type="text" placeholder="გვარი" id="guestLastNameVal">
+                   </div>
+                   <button onclick="nextReg()">შემდეგი</button>
+               </div> 
+               <div class="bx" id="avatar">
+                <div class="avatar">
+                    <h2>გთხოვთ აირჩიოთ ავატარი</h2>
+                    <div class="avatars">
+                        <img src="images/avatar.png" alt="">
+                        <img src="images/avatar4.png" alt="">
+                        <img src="images/avatar3.png" alt="">
+                        <img src="images/avatar5.png" alt="">
+                        <img src="images/avatar2.png" alt="">
+                        <img src="images/avatar6.png" alt="">
+                    </div>
+                    <button onclick="startGame()">რეგისტრაცია</button>
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+<section id="rules" class="">
+    <div class="container">
+        <div class="row">
+            <div class="dec">
+            <h1>გამარჯობა <span id="hereGuestName" style="text-transform: uppercase;"></span>, მე ვარ ლექსო.</h1>
+            <p>ჩვენ ვთამაშობთ თამაშს, ვის უნდა <span>20 000</span> ლარი</p>
+            <p>თამაშის ხანგძლივობა 10 წუთი</p>
+            <p>არის 15 შეკითხვა 4 სავარაუდო პასუხით, რომელთაგანაც მხოლოდ ერთია სწორი. ვიწყებთ მარტივიდან და მივდივართ რთულისკენ.</p>
+            <p>მე_6 და მე_11 კითხვა არის გარანტირებული თანხა.</p>
+            <button onclick="nextRule()">გაგრძელება</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="rulesStep" class=" ">
+    <div class="container">
+        <div class="row">
+            <div class="dec">
+            <p>გაქვს ორი დახმარება</p>
+            <p>50 / 50, რომელიც წაშლის ორ არასწორ პასუხს და დარბაზის დახმარება</p>
+            <p>გაითვალისწინეთ, რომ დახმარებები ერთჯერადია.</p>
+            <p>გისურვებ წარმატებას.</p>
+            <button onclick="startGameFun()">თამაშის დაწყება</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="erroSize" style="display: none;">
+    <div class="container">
+        <div class="row">
+            <h1>სამწუხაროდ თქვენი მოწყობილობის რეზოლუცია არ არის თავსებადი</h1>
+            <p>სცადეთ სხვა რეზოლუციის მქონე მოწყობილობით</p>
+            <h6>თქვენი რეზოლუცია: <span id="clientWid"></span></h6>
+            <span>მინ: WIDTH 768 PX</span>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+</body>
+</html>
